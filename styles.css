@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* change the direction of the flex layout */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc0cb;
+}
+
+header img {
+    height: 90px; /* increase the height of the logo */
+    margin-bottom: 40px; /* add margin to the bottom of the logo */
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+}
+
+form input {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 100%;
+    position: relative;
+    left: 3px;
+}
+
+
